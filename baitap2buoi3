@@ -1,0 +1,47 @@
+package phanvancong;
+
+import java.util.scanner;
+
+public class baitap2buoi3
+{ 
+  public static void main(String[] args)
+   {
+     Scanner scanner=new Scanner(System.in);
+
+     System.out.print("Nhap ma sinh vien:");
+    String maSV = scanner.nextLine();
+     
+      System.out.print("Nhap ho va ten :");
+    String hoVaTen = scanner.nextLine();
+
+      System.out.print("Nhap ngay sinh:");
+    String ngaySinh = scanner.nextLine();
+
+      System.out.print("Nhap lop:");
+    String lop = scanner.nextLine();
+
+      System.out.print("Nhap khoa:");
+    String khoa = scanner.nextLine();
+
+      System.out.print("Nhap dia chi:");
+    String diaChi = scanner.nextLine();
+
+     System.out.print("Nhap gioi tinh:");
+    String gioiTinh = scanner.nextLine();
+
+     System.out.print("Nhap tuoi:");
+    String tuoi = scanner.nextlnt();
+
+     System.out.println("Ma sinh vien: "+maSV);
+     System.out.println("Ho va ten:+hoVaTen);
+     System.out.println("Ngay sinh: "+ngaySinh);
+     System.out.println("Tuoi: "+tuoi);
+     System.out.println("Gioi tinh: "+gioiTinh);
+     System.out.println("lop: "+lop);
+     System.out.println("khoa: "+khoa);
+     System.out.println("Dia chi: "+diaChi);
+
+     scanner.close();
+    }
+  }
+     
